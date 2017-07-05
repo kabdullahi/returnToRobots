@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+      <ul>
+        {{#users}}
+        <li>
+        <img class="imgs" src="{{avatar}}">
+        <div class="userName">{{username}}</div>
+        <div class="name">{{name}}</div>
+        <div class="email">{{email}}</div>
+        <div class="university">{{university}}</div>
+      </li>
+        {{/users}}
+      </ul>
+  </body>
+</html>
